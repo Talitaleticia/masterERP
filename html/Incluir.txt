@@ -1,0 +1,54 @@
+
+<html>
+    <head>
+</head> 
+<body>
+<style type="text/css">
+table {
+border-collapse:collapse;
+border:1px solid #000000;
+}
+
+#tabela tr {
+border:1px solid #000000;
+}
+
+#tabela td {
+width:40px;
+height:40px;
+padding:10px;
+border:1px solid #000000;
+}
+</style>
+    <center><table>
+<tr>
+<td><h2><font color="black" face="Century Gothic"><u>Incluir Conta<u></font></h2></td><td></td>
+</tr>
+<tr>
+<td><font color="black" face="Century Gothic" size="4px">N° do Boleto:</font></td> <td><input type="text" id="Boleto" value=""/></td>
+</tr>
+<tr>
+<td><font color="black" face="Century Gothic" size="4px">Valor:</font></td> <td><input type="text" id="VBoleto" value=""/></td></center>
+</tr>
+<tr>
+<td><font color="black" face="Century Gothic" size="4px">Fornecedor:</font></td> <td><input type="text" id="Empresa" value=""/></td>
+</tr>
+<tr>
+<td><font color="black" face="Century Gothic" size="4px">Data de Entrada:</font></font></td></font></td><td><input type=date step=7 min=2000-01-01></td>
+</tr>
+<tr>
+<td><font color="black" face="Century Gothic" size="4px">Data de Vencimento:</font> </td></font></td><td><input type=date step=7 min=2000-01-01></td>
+</tr><br><br><br><br><br><br><br><br>
+<tr>
+<td><div align="right"><input type="submit"value="salvar"/></div></td> <td>&nbsp <script language=javascript>
+function confirmacao(){
+ if (confirm("tem certeza?"))
+  alert("Cancelado com sucesso.");
+}
+</script>
+ <input name="" type="button"  <a href=#  onclick="return confirmacao();" value="Cancelar"></a> </td>
+
+</tr>
+</table></center>
+</body>
+</html> 

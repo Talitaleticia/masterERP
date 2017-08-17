@@ -1,0 +1,167 @@
+<HTML>
+  <HEAD>
+  <title> Contas a Pagar </title>
+  <style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+  </HEAD>
+   <BODY>
+    <h1> Contas a Pagar </h1>
+<p>
+<form action="L" method="post">
+Nº do Boleto: <input type="text" id="Nº do Boleto" value=""/>
+<th> Filtrar:</th>
+<select>
+  <option value="Período">Período</option>
+  <option value="Pago">Pago</option>
+  <option value="Não Pago">Não Pago</option>
+  <option value="Cancelado">Cancelado</option>
+  <option value="Vencimento"> Vencimento </option>
+  
+</select>
+<input name="" type="button" onClick="window.open('Incluir.html')" value="Incluir"> 
+<br>
+<br>
+<table>
+  <tr>
+    <th>Nº do Boleto</th>
+    <th>Valor</th>
+    <th>Fornecedor</th>
+<th>Data de Entrada </th>
+<th>Vencimento </th>
+<th>Status </th>
+  </tr>
+  <tr><s>
+    <td>123456789</td>
+<td>R$58,6</td>
+<td>Fabrica X</td>
+<td> 11/05/2017</td>
+<td>11/08/2017</td>
+</s><td><select>
+  <option value="Pago">Pago</option>
+  <option value="Não Pago">Não Pago</option>
+  </select> </td>
+   <td><input name="" type="button" onClick="window.open('Editar.html')" value="Editar"></td>
+   <td><script language=javascript>
+function confirmacao(){
+ if (confirm("tem certeza?"))
+  alert("Cancelado com sucesso.");
+}
+</script>
+ <input name="" type="button"  <a href=#  onclick="return confirmacao();" value="Cancelar"></a> </td>
+  </tr>
+  <tr>
+    <td>123456789</td>
+<td>R$58,6</td>
+<td>Fabrica X</td>
+<td> 11/05/2017</td>
+<td>11/08/2017</td>
+   <td><select>
+  <option value="Pago">Pago</option>
+  <option value="Não Pago">Não Pago</option>
+  </select> </td>
+   <td><input name="" type="button" onClick="window.open('Editar.html')" value="Editar"></td>
+   <td><script language=javascript>
+function confirmacao(){
+ if (confirm("tem certeza?"))
+  alert("Cancelado com sucesso.");
+}
+</script>
+ <input name="" type="button"  <a href=#  onclick="return confirmacao();" value="Cancelar"></a> </td>
+   
+  <s> <tr>
+    <td>123456789</td>
+<td>R$58,6</td>
+<td>Fabrica X</td>
+<td> 11/05/2017</td>
+<td>11/08/2017</td>
+  <td><select> <s>
+  <option value="Pago">Pago</option>
+  <option value="Não Pago">Não Pago</option>
+  </select> </td>
+   <td><input name="" type="button" onClick="window.open('Editar.html')" value="Editar"></td>
+   <td><script language=javascript>
+function confirmacao(){
+ if (confirm("tem certeza?"))
+  alert("Cancelado com sucesso.");
+}
+</script>
+ <input name="" type="button"  <a href=#  onclick="return confirmacao();" value="Cancelar"></a></td>
+  </tr>
+  <tr>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td><select>
+  <option value="Pago">Pago</option>
+  <option value="Não Pago">Não Pago</option>
+  </select> </td>
+   <td><input name="" type="button" onClick="window.open('Editar.html')" value="Editar"></td>
+   <td><script language=javascript>
+function confirmacao(){
+ if (confirm("tem certeza?"))
+  alert("Cancelado com sucesso.");
+}
+</script>
+ <input name="" type="button"  <a href=#  onclick="return confirmacao();" value="Cancelar"></a> </td>
+  </tr>
+  <tr>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td><select>
+  <option value="Pago">Pago</option>
+  <option value="Não Pago">Não Pago</option>
+  </select> </td>
+   <td><input name="" type="button" onClick="window.open('Editar.html')" value="Editar"></td>
+   <td>
+ <script language=javascript>
+function confirmacao(){
+ if (confirm("tem certeza?"))
+  alert("Cancelado com sucesso.");
+}
+</script>
+ <input name="" type="button"  <a href=#  onclick="return confirmacao();" value="Cancelar"></a> 
+ </td>
+  </tr>
+  <tr>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td><select>
+  <option value="Pago">Pago</option>
+  <option value="Não Pago">Não Pago</option>
+  </select> </td>
+   <td><input name="" type="button" onClick="window.open('Editar.html')" value="Editar"></td>
+   <td><script language=javascript>
+function confirmacao(){
+ if (confirm("tem certeza?"))
+  alert("Cancelado com sucesso.");
+}
+</script>
+ <input name="" type="button"  <a href=#  onclick="return confirmacao();" value="Cancelar"></a> </td>
+  </tr>
+</table>
+
+   </BODY>
+</HTML>
